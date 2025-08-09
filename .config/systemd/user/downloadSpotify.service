@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/matt/.local/bin/downloadSpotify
+ExecStart=/home/MareDevi/.local/bin/downloadSpotify
 
 [Install]
 WantedBy=default.target

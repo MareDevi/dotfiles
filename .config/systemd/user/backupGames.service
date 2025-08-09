@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/matt/.local/bin/backupGamesaves
+ExecStart=/home/MareDevi/.local/bin/backupGamesaves
 
 [Install]
 WantedBy=default.target

@@ -144,9 +144,6 @@
         "Decor": {
             "enabled": false
         },
-        "EmoteCloner": {
-            "enabled": false
-        },
         "Experiments": {
             "enabled": false
         },
@@ -360,7 +357,8 @@
             "dmSectionCollapsed": false,
             "canCollapseDmSection": false,
             "userBasedCategoryList": {
-                "302085663057248267": []
+                "302085663057248267": [],
+                "1134542928296030228": []
             }
         },
         "PlainFolderIcon": {
@@ -724,6 +722,9 @@
         },
         "HideMedia": {
             "enabled": false
+        },
+        "ExpressionCloner": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -736,7 +737,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1743595953655
+        "settingsSyncVersion": 1754823912765
     },
     "eagerPatches": false
 }

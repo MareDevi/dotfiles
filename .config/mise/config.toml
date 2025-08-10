@@ -29,6 +29,8 @@ watchexec = "latest"
 # Node Tools
 "npm:five-server" = "latest"
 "npm:opencode-ai" = "latest"
+android-sdk = "latest"
+java = "openjdk-21"
 
 [settings]
 # plugins can read the versions files used by other version managers (if enabled by the plugin)

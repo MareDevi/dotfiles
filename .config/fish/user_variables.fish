@@ -88,3 +88,5 @@ if type -q vivid
 end
 set -xg STARSHIP_LOG error
 set -xg ATAC_KEY_BINDINGS $XDG_CONFIG_HOME/atac/vim_key_bindings.toml
+
+set -xg ELECTRON_OZONE_PLATFORM_HINT auto

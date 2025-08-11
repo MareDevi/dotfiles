@@ -29,6 +29,8 @@ watchexec = "latest"
 # Node Tools
 "npm:five-server" = "latest"
 "npm:opencode-ai" = "latest"
+
+# Java
 android-sdk = "latest"
 java = "openjdk-21"
 
@@ -71,3 +73,7 @@ cargo_binstall = true                                                           
 pipx_uvx = true                                                                                  # Use uvx instead of pipx
 idiomatic_version_file_enable_tools = ["node"]
 npm.bun = true
+
+[env]
+ANDROID_AVD_HOME = "/home/MareDevi/.local/share/android/avd"
+QT_QPA_PLATFORM = "xcb"

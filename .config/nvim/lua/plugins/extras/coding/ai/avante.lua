@@ -4,16 +4,40 @@ return {
     event = "VeryLazy",
     build = "make",
     opts = {
-      openai = {
-        endpoint = "http://127.0.0.1:11434",
-        model = "deepseek-coder-v2",
-        temperature = 60,
-        max_tokens = 4096,
-        ["local"] = true,
-      },
+      provider = "siliconcloud",
+      providers = {
+        siliconcloud = {
+          __inherited_from = 'openai',
+          endpoint = 'https://api.siliconflow.cn/v1',
+          api_key_name = 'SILICONCLOUD_API_KEY',
+          model = 'Qwen/Qwen3-Coder-480B-A35B-Instruct'
+        }
+      }
     },
     dependencies = {
       "MeanderingProgrammer/render-markdown.nvim",
+      "hrsh7th/nvim-cmp",
+      "ibhagwan/fzf-lua",
+      "nvim-lua/plenary.nvim",
+      "MunifTanjim/nui.nvim",
+      "zbirenbaum/copilot.lua",
+      {
+        -- 支持图像粘贴
+        "HakonHarnes/img-clip.nvim",
+        event = "VeryLazy",
+        opts = {
+          -- 推荐设置
+          default = {
+            embed_image_as_base64 = false,
+            prompt_for_file_name = false,
+            drag_and_drop = {
+              insert_mode = true,
+            },
+            -- Windows 用户必需
+            use_absolute_path = true,
+          },
+        },
+      },
       ft = { "markdown", "norg", "rmd", "org", "Avante" },
     },
   },

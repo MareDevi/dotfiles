@@ -7,3 +7,6 @@ ghostty --gtk-single-instance=true --quit-after-last-window-closed=false --initi
 
 # Clash Verge
 clash-verge &
+
+# BetterBird
+betterbird &

@@ -33,6 +33,8 @@ watchexec = "latest"
 # Java
 android-sdk = "latest"
 java = "openjdk-21"
+"npm:@qwen-code/qwen-code" = "latest"
+rust = "stable"
 
 [settings]
 # plugins can read the versions files used by other version managers (if enabled by the plugin)

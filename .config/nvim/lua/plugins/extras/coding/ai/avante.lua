@@ -10,7 +10,7 @@ return {
           __inherited_from = 'openai',
           endpoint = 'https://api.siliconflow.cn/v1',
           api_key_name = 'SILICONCLOUD_API_KEY',
-          model = 'Qwen/Qwen3-Coder-480B-A35B-Instruct'
+          model = 'zai-org/GLM-4.5'
         }
       }
     },

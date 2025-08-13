@@ -40,8 +40,8 @@
   "markdown.preview.fontFamily": "Maple Mono NF",
   "errorLens.fontFamily": "Maple Mono NF",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
   // UI
   "editor.stickyScroll.enabled": true,
   "window.commandCenter": false,
@@ -113,14 +113,14 @@
   "apc.listRow": {
     "lists": ["explorer-folders-view", "quick-input-list", "results"],
     "height": 26,
-    "fontSize": 12
+    "fontSize": 14
   },
   "apc.font.family": "Maple Mono NF",
   "apc.monospace.font.family": "Maple Mono NF",
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 28,
-    "fontSize": 12
+    "fontSize": 14
   },
   // Custom css
   "apc.stylesheet": {

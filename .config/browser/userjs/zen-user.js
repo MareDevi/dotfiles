@@ -68,7 +68,7 @@ user_pref("ui.key.menuAccessKey", 0);
 user_pref("browser.tabs.hoverPreview.enabled", true);
 user_pref("zen.urlbar.replace-newtab", false);
 user_pref("zen.workspaces.open-new-tab-if-last-unpinned-tab-is-closed", false);
-user_pref("browser.tabs.groups.enabled", false);
+user_pref("browser.tabs.groups.enabled", true);
 user_pref("browser.urlbar.trimURLs", true);
 user_pref("zen.theme.gradient", true);
 user_pref("zen.view.experimental-rounded-view", true);

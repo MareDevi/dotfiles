@@ -8,7 +8,6 @@ font-feature = +ss05
 font-feature = +ss07
 
 font-size = 14
-# adjust-cell-height = 28%
 cursor-style = block
 cursor-style-blink = true
 cursor-invert-fg-bg = false
@@ -26,7 +25,7 @@ mouse-hide-while-typing = true
 confirm-close-surface = false
 window-padding-x = 10
 window-padding-y = 5,5
-window-padding-balance = false
+window-padding-balance = true
 
 auto-update = check
 auto-update-channel = stable
@@ -34,3 +33,4 @@ auto-update-channel = stable
 # extras
 shell-integration-features = no-cursor
 copy-on-select = clipboard
+keybind = shift+enter=text:\n

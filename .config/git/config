@@ -53,7 +53,7 @@
 
 [commit]
   template = ~/.config/git/gitmessage
-  gpgsign = true
+	gpgsign = true
 
 [gpg]
   program = /sbin/gpg

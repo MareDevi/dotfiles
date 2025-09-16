@@ -39,6 +39,11 @@ rust = "stable"
 "npm:eslint" = "latest"
 "npm:markdown-toc" = "latest"
 "npm:prettier" = "latest"
+"npm:@anthropic-ai/claude-code" = "latest"
+pdm = "latest"
+python = "3.12"
+"npm:@musistudio/claude-code-router" = "latest"
+"npm:picgo" = "latest"
 
 [settings]
 # plugins can read the versions files used by other version managers (if enabled by the plugin)

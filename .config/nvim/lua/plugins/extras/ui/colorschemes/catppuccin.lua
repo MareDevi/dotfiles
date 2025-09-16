@@ -49,7 +49,7 @@ return {
   {
     "akinsho/bufferline.nvim",
     opts = {
-      highlights = require("catppuccin.groups.integrations.bufferline").get({
+      highlights = require("catppuccin.groups.integrations.bufferline").get_theme({
         styles = { "italic", "bold" },
         custom = {
           all = {
